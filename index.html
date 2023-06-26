@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokha Uz | Web Developer</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-code logotip"></i></h1>
+        <i id="menu" class="fas fa-bars"></i>
+        <nav id="nav">
+            <a href="#home" id="h"><i class="fas fa-home"></i>Home</a>
+            <a href="#skills" id="s"><i class="fas fa-book"></i>Skills</a>
+            <a href="#about" id="a"><i class="fas fa-book-open"></i>About</a>
+        </nav>
+    </header>
+    <!-- page 1 -->
+    <div id="home" class="home">
+        <section>
+            <h1 id="status">You Are <span id="statusChecker"></span></h1>
+            <h3 id="timer"></h3>
+            <p id="well">Assalamu alaikum! <br> Welcome to my personal website...</p>
+            <button><a href="https://t.me/utopia_14">Telegram</a></button>
+            <select id="lang_selector" onchange="language()">
+                <option value="English">English</option>
+                <option value="Russian">Russian</option>
+                <option value="Uzbek">Uzbek</option>
+            </select>
+            <p><i class="fas fa-phone"></i>998 (90) 413 01 18</p>
+        </section>
+        <span>
+            <img src="./logos/20230626_000603.png" alt="Owner">
+        </span>
+    </div>
+    <!-- page 2 -->
+    <div id="skills" class="skills">
+        <div id="box1" class="box magicbox">
+            <h1 class="magicbox">HTML5</h1>
+            <progress max="100" value="98" class="magicbox"></progress>
+            <p class="magicbox">93%</p>
+        </div>
+        <div id="box2" class="box magicbox">
+            <h1 class="magicbox">Css3</h1>
+            <progress max="100" value="95" class="magicbox"></progress>
+            <p class="magicbox">90%</p>
+        </div>
+        <div id="box3" class="box magicbox">
+            <h1 class="magicbox">JavaScript</h1>
+            <progress max="100" value="70" class="magicbox"></progress>
+            <p class="magicbox">60%</p>
+        </div>
+        <div class="box magicbox">
+            <h1 class="magicbox magicbox">PHP</h1>
+            <progress max="100" value="67" class="magicbox"></progress>
+            <p class="magicbox">55%</p>
+        </div>
+        <div class="box magicbox">
+            <h1 class="magicbox magicbox">Sql</h1>
+            <progress max="100" value="92" class="magicbox"></progress>
+            <p class="magicbox">90%</p>
+        </div>
+        <div class="box magicbox">
+            <h1 class="magicbox">MySQL</h1>
+            <progress max="100" value="99" class="magicbox"></progress>
+            <p class="magicbox">91%</p>
+        </div>
+    </div>
+    <!-- page 3 -->
+    <div id="about" class="about">
+        <section>
+            <i class="magicbox">Jahongir Hakimov</i>
+            <p class="magicbox" id="bio">Hello, my name is Jahongir. I'm 16 years old. <br>
+            I know the main part of Front-End and Back-End at the moment. I haven't <br>
+            worked anywhere yet, but with the help of the technologies I know, I can create amazing websites! <br><br>
+            (I wrote this site without any frameworks, so I wrote it in HTML5, Css3, JavaScript)</p>
+        </section>
+    </div>
+    <footer>
+        <a href=""><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <p>&copy; 2023</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
